@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
+	color: antiquewhite;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100vh;
+	width: 100%;
+}
+
+body {
+	display: grid;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("BG2m.png");
+	grid-template-rows: 5fr 2fr;
+	grid-template-columns: 1fr;
+}
+
+#hawk-logo {
+	max-width: 70%;
+	max-height: 500px;
+	margin: auto;
+}
+
+#closed {
+	margin: auto;
+	margin-bottom: 4em;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#closed h1 {
+	margin-bottom: 1em;
+}
+
+#closed h2 {
+	font-size: 3em;
+}
+
+@media only screen and (min-width: 700px) {
+	body {
+		background-image: url("BG2.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}

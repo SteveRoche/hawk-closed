@@ -42,12 +42,16 @@ body {
 }
 
 #closed h2 {
-	font-size: 0.8em;
+	font-size: 0.9em;
 	margin-bottom: 0.5em;
 }
 
 #closed a {
 	text-transform: none;
+}
+
+i {
+	margin-right: 3px;
 }
 
 @media only screen and (min-width: 700px) {
